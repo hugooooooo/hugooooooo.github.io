@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<head>
+<title>Learn Programming, Web Design, Business | General Assembly</title>
+<meta content="Learn from top practitioners of programming, business, and design at General Assembly." name="description" />
+<meta content="General Assembly" property="og:title" />
+<meta content="website" property="og:type" />
+<meta content="https://generalassemb.ly/" property="og:url" />
+<meta content="https://generalassemb.ly/assets/ga-lockup-1788582934ade008a8ea6068b784b8ee.png" property="og:image" />
+<meta content="summary" property="twitter:cards" />
+<meta content="https://generalassemb.ly/" property="twitter:url" />
+<meta content="General Assembly" property="twitter:title" />
+<meta content="General Assembly transforms thinkers into creators through education and opportunities in technology, business, and design." property="twitter:description" />
+<meta content="https://generalassemb.ly/assets/ga-lockup-1788582934ade008a8ea6068b784b8ee.png" property="twitter:image" />
+<meta content="@ga" property="twitter:site" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="1I5xv89ZhbF8gvakiXVIqFrIGvpWxuFkEpMBpGjCzJw=" name="csrf-token" />
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='initial-scale=1.0, width=device-width, maximum-scale=1.0' name='viewport'>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"096c84593b","applicationID":"4491697","transactionName":"cQoPTBBWCAkDEx9BR1MRCFtNUQsIAw==","queueTime":9,"applicationTime":938,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-632.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<meta content='mu-4d45fc15-539c4c39-eb0064d8-4db45b83' name='blitz'>
+<link href="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/favicon-e2142b2e2866607cf681642f4c770e3e.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href='https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/apple-touch-icon-152x152-fd362f0ab7daaadc0103375dc5405013.png' rel='apple-touch-icon' sizes='152x152'>
+<meta content='https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/apple-touch-icon-152x152-fd362f0ab7daaadc0103375dc5405013.png' name='msapplication-TileImage'>
+<meta content='7dc9da01bd1d54afbb191ba94edbba29' name='p:domain_verify'>
+<link href="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/public-libs-afe5506ce6b55e4dff6c592d376c76ca.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/public-37a6a654f15af4826f7e887302ecc08f.css" media="all" rel="stylesheet" type="text/css" />
+<!--[if lt IE 10]><script src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/ie/html5shiv-764b31376c43f8710af64dee7644374c.js" type="text/javascript"></script>
+<link href="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/ie/public-b62c137dd17557e5c5d0a51503b3ac9d.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/public/homepage-headers-3e4096278e9675a54a987f6d0fa4c22e.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script>
+  // Google Analytics
+  var _gaq = _gaq || [];
+  var pluginUrl =
+      '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-18018358-1']);
+  _gaq.push(['_setDomainName', 'generalassemb.ly']);
+  _gaq.push(['_setCustomVar', 1, 'Login Status', 'logged-in', 1]);
+  _gaq.push(['_setCustomVar', 2, 'Metro', 'london', 1]);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+  // Kissmetrics
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || 'c40077c10bb2e9f4e7d70f18139c61a34b97f556';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+          s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+</script>
+
+<script async src='//cdn.optimizely.com/js/392850087.js'></script>
+</head>
+<body>
+
+<!--[if lt IE 8]><div id='check_browser_warning' style='display: none'>
+<div class='check_browser_message'>
+<img alt="General Assembly logo black" class="logo" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/ga-lockup-black-eeb69f5a819539cabe9e133c0e6d82e7.png" />
+<h4>Warning! Your browser is really old.</h4>
+<p>
+Our website probably won't display correctly for you.
+<br>For a less-frustrating experience, please download a current browser:
+</p>
+</div>
+<div class='check_browser_browsers'>
+<a class='check_browser_link' href='http://www.mozilla.com/firefox' id='check_browser_firefox'>
+<img alt="Firefox browser logo" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/browser_icons/firefox-7f65757d7e5fed8fa092074afe80c934.jpg" />
+Firefox
+</a>
+<a class='check_browser_link' href='http://www.google.com/chrome' id='check_browser_chrome'>
+<img alt="Chrome browser logo" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/browser_icons/chrome-f883c703848110a050c17fdc053bb0b3.jpg" />
+Chrome
+</a>
+<a class='check_browser_link' href='http://www.apple.com/safari/download/' id='check_browser_safari'>
+<img alt="Safari browser logo" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/browser_icons/safari-dd02afe43d27c7688df02020102449ba.jpg" />
+Safari
+</a>
+<a class='check_browser_link' href='http://www.opera.com/browser/download/' id='check_browser_opera'>
+<img alt="Opera browser logo" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/browser_icons/opera-47c024cab860b3a46af74b19829307f3.jpg" />
+Opera
+</a>
+<a class='check_browser_link' href='http://www.microsoft.com/ie' id='check_browser_ie'>
+<img alt="Internet Explorer browser logo" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/browser_icons/ie-fa44be0a2eaabebc453451d75ab6c6ff.jpg" />
+Internet Explorer
+</a>
+<div style='clear: both'></div>
+</div>
+<div class='i-dont-care'>
+<button class='i-dont-care-button'>I don't care, hide this notice.</button>
+</div>
+</div><![endif]-->
+
+<script>
+  var _kmq = _kmq || [];
+</script>
+<div>
+<div class='banner'>
+<div class='masthead'>
+<a href="/"><img alt="Ga-lockup" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/ga-lockup-1788582934ade008a8ea6068b784b8ee.png" /></a>
+<a class='skip' href='#navigation'>
+<img alt="Menu" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/menu-e572983f45e410134459f5b061270989.svg" />
+</a>
+</div>
+</div>
+</div>
+
+
+<div class='survey-error-state flash-message alert' style='display: none;'>
+<p class='max-width has-padding'>
+<span>Bummer!</span>
+Please complete all required questions.
+<span class='icon-x flash-close'>&nbsp;</span>
+</p>
+</div>
+<div class='fixed-footer-top-trigger'></div>
+<div class='section-top' id='metro_welcome_section'>
+<header class='welcome-text'>
+<h1 class='home-large js-fit-text centered' id='london_title'></h1>
+<h2 class='home-medium centered' id='london_tagline'></h2>
+<div class='centered'>
+<a href="#" class="browse-offerings button" id="london_cta">Browse Offerings</a>
+</div>
+</header>
+</div>
+<div class='press-mentions max-width link-section'>
+<header class='section-header'>
+<div class='grid-row'>
+<img alt="bloomberg" class="logo-padding" data-2x="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/bloomberg@2x-c200746bd239d48c4ea6f50fd2c2656e.png" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/bloomberg-b4f255fde0b878327c66608b3c05c33c.png" />
+<img alt="new york times" class="logo-padding" data-2x="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/nyt@2x-6836ca4510813c9c7daa61929cc292eb.png" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/nyt-2582bc5d2a87f1ec891a16da2e580874.png" />
+<img alt="techcrunch" class="logo-padding" data-2x="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/techcrunch@2x-757de5e3eb3dd8a3acba31ac80b7351e.png" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/techcrunch-bf18d963609cd1ba3013ba922c37ecab.png" />
+<img alt="fast company" class="logo-padding" data-2x="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/fastcompany@2x-af05e404c65e7a6de48503bc35a6d4a7.png" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/fastcompany-fce64e2f50fe939072886746ab4fc50d.png" />
+<img alt="wall street journal" class="logo-padding" data-2x="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/wsj@2x-ede5ffbb736e81217ed3e469c004bf7a.png" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/wsj-fd048f1d5a7047359b92bda16b8857d9.png" style="padding-right: 0;" />
+<img alt="cnbc" class="logo-padding" data-2x="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/cnbc@2x-ee8172033da825d22fc310952e0c1c47.png" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/static/press-mentions/cnbc-dcd339d7ae0967e0de3d997fa11e01db.png" />
+</div>
+</header>
+</div>
+
+<section class='content-area-white max-width link-section' id='link-topics'>
+<header class='section-header'>
+<h4 class='centered explore-topics'>Explore Courses by Topic</h4>
+</header>
+<div class='grid-row group-of-topics has-padding'>
+<a href="/education?topic=6" class="column"><div class='topic-link'>
+<div class='icon-web-development'></div>
+<p>Web<br>Development</p>
+</div>
+</a><a href="/education?topic=4" class="column"><div class='topic-link'>
+<div class='icon-user-experience-design'></div>
+<p>User Experience<br>Design</p>
+</div>
+</a><a href="/education?topic=2" class="column"><div class='topic-link'>
+<div class='icon-product-design'></div>
+<p>Product<br>Design</p>
+</div>
+</a><a href="/education?topic=8" class="column"><div class='topic-link'>
+<div class='icon-data-analysis'></div>
+<p>Data<br>Analysis</p>
+</div>
+</a><a href="/education?topic=7" class="column"><div class='topic-link'>
+<div class='icon-digital-marketing'></div>
+<p>Digital<br>Marketing</p>
+</div>
+</a><a href="/education?topic=5" class="column"><div class='topic-link'>
+<div class='icon-mobile-development'></div>
+<p>Mobile<br>Development</p>
+</div>
+</a><a href="/education?topic=1" class="column"><div class='topic-link'>
+<div class='icon-business-foundations'></div>
+<p>Business<br>Foundations</p>
+</div>
+</a></div>
+</section>
+<section class='content-area-grey arrow-down'>
+<div class='grid-row two-flipped max-width has-padding'>
+<div class='column image-wrapper'>
+<img alt="Immersive-papercraft-hp" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/papercraft/immersive-papercraft-hp-8ea2b56614e1e0f9f5fc649534593f9f.jpg" />
+</div>
+<div class='column' style='padding-right:10%'>
+<h2>Full-Time Courses</h2>
+<p class='medium'>
+Make a career change with our 8–12 week, all-day, full-time programs. 
+</p>
+<p>
+<a href="/education?format=immersives" class="button white">View Full-Time Courses</a>
+</p>
+</div>
+</div>
+</section>
+<section class='content-area-white link-section' id='link-courses'>
+<header class='max-width has-padding visit-metro'>
+<div class='dropdown metro-dropdown'>
+<span class='metro-dropdown-trigger'>
+<h2 class='metro-classes-header'>London</h2>
+<span class='dropdown-arrow'></span>
+</span>
+<ul class='dropdown-contents metro-dropdown-contents'>
+<li class='different-metro'>
+<a data-metro-slug='atlanta' href='#'>
+Atlanta
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='austin' href='#'>
+Austin
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='boston' href='#'>
+Boston
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='chicago' href='#'>
+Chicago
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='hong-kong' href='#'>
+Hong Kong
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='london' href='#'>
+London
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='los-angeles' href='#'>
+Los Angeles
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='melbourne' href='#'>
+Melbourne
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='new-york-city' href='#'>
+New York City
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='san-francisco' href='#'>
+San Francisco
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='seattle' href='#'>
+Seattle
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='singapore' href='#'>
+Singapore
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='sydney' href='#'>
+Sydney
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='washington-dc' href='#'>
+Washington D.C.
+</a>
+</li>
+</ul>
+</div>
+
+</header>
+<div class='max-width has-padding stacked-product-list'>
+<a href='/education/product-management-immersive'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Product Management Immersive
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+<a href='/education/user-experience-design-immersive'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+User Experience Design Immersive
+</p>
+<p class='small stacked-item-date hide-under-600'>
+08 June
+&nbsp;–&nbsp;
+14 August
+</p>
+</div>
+</a>
+<a href='/education/web-development-immersive'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Web Development Immersive
+</p>
+<p class='small stacked-item-date hide-under-600'>
+29 June
+&nbsp;–&nbsp;
+18 September
+</p>
+</div>
+</a>
+</div>
+</section>
+<section class='content-area-grey arrow-down'>
+<div class='grid-row two-flipped max-width has-padding'>
+<div class='column image-wrapper'>
+<img alt="Courses-papercraft" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/papercraft/courses-papercraft-5f5a34cf099b31faa0cb4674d82dd338.jpg" />
+</div>
+<div class='column' style='padding-right:10%'>
+<h2>Part-Time Courses</h2>
+<p class='medium'>
+Level up in your career with our 8–12 week, part-time, evening and weekend programs. 
+</p>
+<p>
+<a href="/education?format=courses" class="button white">View Part-Time Courses</a>
+</p>
+</div>
+</div>
+</section>
+<section class='content-area-white link-section' id='link-courses'>
+<header class='max-width has-padding visit-metro'>
+<div class='dropdown metro-dropdown'>
+<span class='metro-dropdown-trigger'>
+<h2 class='metro-classes-header'>London</h2>
+<span class='dropdown-arrow'></span>
+</span>
+<ul class='dropdown-contents metro-dropdown-contents'>
+<li class='different-metro'>
+<a data-metro-slug='atlanta' href='#'>
+Atlanta
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='austin' href='#'>
+Austin
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='boston' href='#'>
+Boston
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='chicago' href='#'>
+Chicago
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='hong-kong' href='#'>
+Hong Kong
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='london' href='#'>
+London
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='los-angeles' href='#'>
+Los Angeles
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='melbourne' href='#'>
+Melbourne
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='new-york-city' href='#'>
+New York City
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='san-francisco' href='#'>
+San Francisco
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='seattle' href='#'>
+Seattle
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='singapore' href='#'>
+Singapore
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='sydney' href='#'>
+Sydney
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='washington-dc' href='#'>
+Washington D.C.
+</a>
+</li>
+</ul>
+</div>
+
+</header>
+<div class='max-width has-padding stacked-product-list'>
+<h4 class='group-header'>
+Technology
+Part-Time Courses
+</h4>
+<a href='/education/analytics'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Analytics
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+<a href='/education/back-end-web-development'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Back-End Web Development
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+<a href='/education/data-science'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Data Science
+</p>
+<p class='small stacked-item-date hide-under-600'>
+05 May
+&nbsp;–&nbsp;
+16 July
+</p>
+</div>
+</a>
+<a href='/education/front-end-web-development'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Front-End Web Development
+</p>
+<p class='small stacked-item-date hide-under-600'>
+26 May
+&nbsp;–&nbsp;
+30 July
+</p>
+</div>
+</a>
+<a href='/education/mobile-development'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Mobile Development
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+<h4 class='group-header'>
+Business
+Part-Time Courses
+</h4>
+<a href='/education/business-development-sales'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Business Development &amp; Sales
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+<a href='/education/business-fundamentals-tactics'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Business Fundamentals &amp; Tactics
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+<a href='/education/digital-marketing'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Digital Marketing
+</p>
+<p class='small stacked-item-date hide-under-600'>
+11 May
+&nbsp;–&nbsp;
+20 July
+</p>
+</div>
+</a>
+<a href='/education/product-management'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Product Management
+</p>
+<p class='small stacked-item-date hide-under-600'>
+15 June
+&nbsp;–&nbsp;
+19 August
+</p>
+</div>
+</a>
+<h4 class='group-header'>
+Design
+Part-Time Courses
+</h4>
+<a href='/education/user-experience-design'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+User Experience Design
+</p>
+<p class='small stacked-item-date hide-under-600'>
+02 June
+&nbsp;–&nbsp;
+20 August
+</p>
+</div>
+</a>
+<a href='/education/visual-design'>
+<div class='stacked-item clearfix'>
+<p class='stacked-item-title'>
+Visual Design
+</p>
+<p class='small stacked-item-date hide-under-600'>
+<span class='coming-soon'>
+Coming Soon!
+</span>
+</p>
+</div>
+</a>
+</div>
+</section>
+<section class='content-area-grey arrow-down'>
+<div class='grid-row two-flipped spaced max-width has-padding'>
+<div class='column image-wrapper'>
+<img alt="Cw-papercraft" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/papercraft/cw-papercraft-8523f1a7d81d1aa657142886630c4b57.jpg" />
+</div>
+<div class='column' style='padding-right:7%'>
+<h2>Classes &amp; Workshops</h2>
+<p class='medium'>
+Stay current and gain insight with our fast-paced and fun short-form offerings.
+</p>
+<p>
+<a href="/education?format=classes-workshops" class="button white">Attend a Class or Workshop</a>
+</p>
+</div>
+</div>
+</section>
+<section class='content-area link-section' id='link-classes-workshops'>
+<header class='max-width has-padding visit-metro'>
+<div class='dropdown metro-dropdown'>
+<span class='metro-dropdown-trigger'>
+<h2 class='metro-classes-header'>London</h2>
+<span class='dropdown-arrow'></span>
+</span>
+<ul class='dropdown-contents metro-dropdown-contents'>
+<li class='different-metro'>
+<a data-metro-slug='atlanta' href='#'>
+Atlanta
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='austin' href='#'>
+Austin
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='boston' href='#'>
+Boston
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='chicago' href='#'>
+Chicago
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='hong-kong' href='#'>
+Hong Kong
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='london' href='#'>
+London
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='los-angeles' href='#'>
+Los Angeles
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='melbourne' href='#'>
+Melbourne
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='new-york-city' href='#'>
+New York City
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='san-francisco' href='#'>
+San Francisco
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='seattle' href='#'>
+Seattle
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='singapore' href='#'>
+Singapore
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='sydney' href='#'>
+Sydney
+</a>
+</li>
+<li class='different-metro'>
+<a data-metro-slug='washington-dc' href='#'>
+Washington D.C.
+</a>
+</li>
+</ul>
+</div>
+
+</header>
+<div class='product-gallery'>
+<div class='grid-row has-padding max-width three'>
+<div class='column' itemscope itemtype='http://schema.org/EducationEvent'>
+<a href='/education/designing-for-multiple-devices-3-part-series/london/11499' itemprop='url'>
+<div class='product'>
+<img alt="Designing for Multiple Devices: 3-Part Series" class="product-image" itemprop="image" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/1097/thumb_ga-multipledevices.jpg" />
+<div class='product-details'>
+<p class='product-title' itemprop='name'>
+Designing for Multiple Devices: 3-Part Series
+</p>
+<meta content='2015-04-30T18:00:00+01:00' itemprop='startDate'>
+<p class='small product-date'>
+<span class='small-calendar-icon'>
+30
+</span>
+Thursday, 30 April
+</p>
+</div>
+</div>
+</a>
+</div>
+<div class='column' itemscope itemtype='http://schema.org/EducationEvent'>
+<a href='/education/yes-you-can-improving-your-level-of-production-with-kanban/london/12251' itemprop='url'>
+<div class='product'>
+<img alt="Yes You Can: Improving Your Level of Production with Kanban" class="product-image" itemprop="image" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/2280/thumb_Intro_to_Kanban.jpg" />
+<div class='product-details'>
+<p class='product-title' itemprop='name'>
+Yes You Can: Improving Your Level of Production with Kanban
+</p>
+<meta content='2015-04-30T18:15:00+01:00' itemprop='startDate'>
+<p class='small product-date'>
+<span class='small-calendar-icon'>
+30
+</span>
+Thursday, 30 April
+</p>
+</div>
+</div>
+</a>
+</div>
+<div class='column' itemscope itemtype='http://schema.org/EducationEvent'>
+<a href='/education/thirst-fridays/london/12766' itemprop='url'>
+<div class='product'>
+<img alt="Thirst Fridays" class="product-image" itemprop="image" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/3651/thumb_Start-Your-Creative-Business-On-Etsy__1_.jpg" />
+<div class='product-details'>
+<p class='product-title' itemprop='name'>
+Thirst Fridays
+</p>
+<meta content='2015-05-01T17:30:00+01:00' itemprop='startDate'>
+<p class='small product-date'>
+<span class='small-calendar-icon'>
+1
+</span>
+Friday,  1 May
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class='grid-row has-padding max-width three'>
+<div class='column' itemscope itemtype='http://schema.org/EducationEvent'>
+<a href='/education/understanding-the-what-why-and-how-of-online-retail/london/11513' itemprop='url'>
+<div class='product'>
+<img alt="Understanding the What, Why and How of Online Retail" class="product-image" itemprop="image" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/706/thumb_ga_-_ecommerce.jpeg" />
+<div class='product-details'>
+<p class='product-title' itemprop='name'>
+Understanding the What, Why and How of Online Retail
+</p>
+<meta content='2015-05-05T18:15:00+01:00' itemprop='startDate'>
+<p class='small product-date'>
+<span class='small-calendar-icon'>
+5
+</span>
+Tuesday,  5 May
+</p>
+</div>
+</div>
+</a>
+</div>
+<div class='column' itemscope itemtype='http://schema.org/EducationEvent'>
+<a href='/education/legal-essentials-for-startups/london/11514' itemprop='url'>
+<div class='product'>
+<img alt="Legal Essentials for Startups" class="product-image" itemprop="image" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/1466/thumb_qLegal_image.jpg" />
+<div class='product-details'>
+<p class='product-title' itemprop='name'>
+Legal Essentials for Startups
+</p>
+<meta content='2015-05-06T18:15:00+01:00' itemprop='startDate'>
+<p class='small product-date'>
+<span class='small-calendar-icon'>
+6
+</span>
+Wednesday,  6 May
+</p>
+</div>
+</div>
+</a>
+</div>
+<div class='column' itemscope itemtype='http://schema.org/EducationEvent'>
+<a href='/education/the-future-of-food-tech/london/12691' itemprop='url'>
+<div class='product'>
+<img alt="The Future of Food Tech" class="product-image" itemprop="image" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/3831/thumb_GA_Assembled_Food.jpg" />
+<div class='product-details'>
+<p class='product-title' itemprop='name'>
+The Future of Food Tech
+</p>
+<meta content='2015-05-06T18:30:00+01:00' itemprop='startDate'>
+<p class='small product-date'>
+<span class='small-calendar-icon'>
+6
+</span>
+Wednesday,  6 May
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+
+<footer class='max-width has-padding'>
+<p>
+<a href="/education?format=classes-workshops" class="product-gallery-more">See More Upcoming Classes &amp; Workshops</a>
+</p>
+</footer>
+</div>
+</section>
+<section class='content-area-grey'>
+<div class='grid-row two-flipped spaced max-width has-padding'>
+<div class='column image-wrapper'>
+<img alt="Circuits-papercraft" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/papercraft/circuits-papercraft-7f7f7e1da9999dd753ad1fbacf10ecb5.png" />
+</div>
+<div class='column' style='padding-right:7%'>
+<h2>Learn Web Design Online</h2>
+<p class='medium'>
+Learn HTML and CSS completely online with one-on-one help from a mentor.
+</p>
+<p>
+<a href="/education/web-design-circuit" class="button white">Explore Web Design Circuit</a>
+</p>
+</div>
+</div>
+</section>
+
+<div class='fixed-footer'>
+<section class='js-subscription-form clearfix dark-grey' data-location='london' data-page='homepage' id='email-banner' style='display: none;'>
+<div class='max-width has-padding'>
+<div class='signup email-banner-signup'>
+<div class='message'>
+<h4>Hello, London!</h4>
+<p>Find out about upcoming programs and events.</p>
+</div>
+<form action='/education' class='signup-page'>
+<input id='banner-email-input' name='email' placeholder='Your email' type='email'>
+<input class='button submit-subscription' id='banner-get-updates' type='button' value='Get Updates'>
+</form>
+</div>
+<div class='confirmation' style='display: none'>
+<h4>Clear some room in your inbox.</h4>
+<p>We'll be sending you updates on upcoming programs and events in London.</p>
+</div>
+</div>
+</section>
+</div>
+
+
+<div class='fixed-footer-bottom-trigger'></div>
+
+
+<nav>
+<ul class='main-nav' id='navigation'>
+<li class='js-nav-oncampus'>
+<a href="/education" class="main-nav-item">On Campus <span class='icon-dropdown-arrow'>▾</span></a>
+<div class='js-nav-oncampus-dropdown navigation-dropdown is-hidden'>
+<ul>
+<li>
+<a href='/education?format=immersives'>
+<span>Full-Time Courses</span>
+</a>
+<ul>
+<li>
+<a data-type='Full Time Courses' href='/education/product-management-immersive'>
+<span>Product Management Immersive</span>
+</a>
+</li>
+<li>
+<a data-type='Full Time Courses' href='/education/user-experience-design-immersive'>
+<span>User Experience Design Immersive</span>
+</a>
+</li>
+<li>
+<a data-type='Full Time Courses' href='/education/web-development-immersive'>
+<span>Web Development Immersive</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/education?format=courses'>
+<span>Part-Time Courses</span>
+</a>
+<ul>
+<li>
+<a data-type='Part Time Courses' href='/education/analytics'>
+<span>Analytics</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/back-end-web-development'>
+<span>Back-End Web Development</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/business-development-sales'>
+<span>Business Development &amp; Sales</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/business-fundamentals-tactics'>
+<span>Business Fundamentals &amp; Tactics</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/data-science'>
+<span>Data Science</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/digital-marketing'>
+<span>Digital Marketing</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/front-end-web-development'>
+<span>Front-End Web Development</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/mobile-development'>
+<span>Mobile Development</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/product-management'>
+<span><span class="translation_missing" title="translation missing: en.course_names.product_management">Product Management</span></span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/user-experience-design'>
+<span>User Experience Design</span>
+</a>
+</li>
+<li>
+<a data-type='Part Time Courses' href='/education/visual-design'>
+<span>Visual Design</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/education?format=classes-workshops'>
+<span>Classes &amp; Workshops</span>
+</a>
+</li>
+<li>
+<a href='/education?format=events'>
+<span>Events</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class='js-nav-online'>
+<a href="/education/web-design-circuit" class="main-nav-item">Online <span class='icon-dropdown-arrow'>▾</span></a>
+<div class='js-nav-online-dropdown navigation-dropdown is-hidden'>
+<ul>
+<li>
+<a href='/education/web-design-circuit'>
+<span>Online Courses</span>
+</a>
+<ul>
+<li>
+<a data-type='Online Courses' href='/education/web-design-circuit'>
+<span>Web Design Circuit</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/online/featured'>
+<span>Online Tutorials</span>
+</a>
+<ul>
+<li>
+<a data-type='Online Tutorials' href='/online/frontrow'>
+<span>Front Row</span>
+</a>
+</li>
+<li>
+<a data-type='Online Tutorials' href='https://dash.generalassemb.ly'>
+<span>Dash</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="/enterprise" class="main-nav-item">Corporate Training</a>
+</li>
+<li class='hide-under-835 js-nav-account' id='nav-account'>
+<a href="https://accounts.generalassemb.ly/account" class="main-nav-item account-nav-trigger"><span class='account-image-wrapper'>
+<img alt="Account-icon" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/account-icon-502b44fc640bc09ce0de7dcabe84f35f.svg" />
+</span>
+</a><div class='js-nav-account-dropdown navigation-dropdown is-hidden account-dropdown' id='nav-account-dropdown'>
+<ul>
+<li><a href="https://accounts.generalassemb.ly/account">My Account</a></li>
+<li><a href="/online/users/me">My Subscription</a></li>
+<li><a href="/users/sign_out">Sign Out</a></li>
+</ul>
+</div>
+</li>
+<li class='hide-over-835'>
+<a href="https://accounts.generalassemb.ly/account" class="main-nav-item">My Account</a>
+</li>
+<li class='hide-over-835'>
+<a href="/online/users/me" class="main-nav-item">My Subscription</a>
+</li>
+<li class='hide-over-835'>
+<a href="/users/sign_out_client" class="main-nav-item">Sign Out</a>
+</li>
+
+</ul>
+</nav>
+
+<footer class='public-footer'>
+<div class='grid-row max-width has-padding two'>
+<div class='column footer-value-prop'>
+<p class='medium hide-under-720'>
+General Assembly transforms thinkers into creators through education and opportunities in technology, business, and design.
+</p>
+<p class='ga-social-profile-links hide-under-720'>
+<a href='http://www.facebook.com/gnrlassembly' target='_blank' title='Visit General Assembly on Facebook'>
+<img alt="GA on Facebook" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-facebook-32x32-eb431410787437ca47c9b959971d6087.png" />
+</a>
+<a href='https://twitter.com/ga' target='_blank' title='Follow @GA on Twitter'>
+<img alt="GA on Twitter" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-twitter-32x32-c40b9151c32ebdba4d600f391ee67bf7.png" />
+</a>
+<a href='http://www.linkedin.com/company/2408664' target='_blank' title='Network with General Assembly on LinkedIn'>
+<img alt="GA on LinkedIn" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-linkedin-32x32-c9c486ec235119266481bf5a0f2676ec.png" />
+</a>
+<a href='http://instagram.com/generalassembly' target='_blank' title='See what’s happening on GA’s Instagram.'>
+<img alt="GA on Instagram" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-instagram-32x32-e1692f9d81b934763e3f044688fcec7d.png" />
+</a>
+<a href='https://plus.google.com/+GeneralAssembly' rel='publisher' target='_blank' title='Visit General Assembly on Google Plus'>
+<img alt="GA on Google Plus" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-googleplus-32x32-f0670aadb957fba81408db8dc724d670.png" />
+</a>
+
+</p>
+<form action='/education' class='footer-sign-up footer-email-subscription-form signup-page small-form hide-under-720' data-location='london'>
+<div class='signup' id='email-footer'>
+<p>
+Find out about upcoming programs and events in London
+</p>
+<input id='footer-email-input' name='email' placeholder='Your email' type='email'>
+<input class='button submit-subscription' id='footer-get-updates' type='submit' value='Get Updates'>
+</div>
+<div class='confirmation' style='display: none'>
+<h4>
+Clear some room in your inbox.
+</h4>
+<p>
+We'll be sending you updates on upcoming programs and events in London
+</p>
+</div>
+</form>
+</div>
+<div class='column'>
+<div class='clearfix'>
+<nav class='footer-left-column'>
+<ul>
+<h4>Company</h4>
+<li>
+<a href="/about">About</a>
+</li>
+<li>
+<a href="/locations">Locations</a>
+</li>
+<li>
+<a href="/blog">Blog</a>
+</li>
+<li>
+<a href="/careers">Careers</a>
+</li>
+<li>
+<a href="/contact">Contact</a>
+</li>
+<li>
+<a href="/faq">FAQ</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+</ul>
+</nav>
+
+<nav class='footer-right-column'>
+<ul>
+<h4>Community</h4>
+<li>
+<a href="/teach-at-ga">Become An Instructor</a>
+</li>
+<li>
+<a href="/enterprise">Corporate Training Opportunities</a>
+</li>
+<li>
+<a href="/opportunity-fund/partners">Fund a Scholarship</a>
+</li>
+<li>
+<a href="/talent">Looking for Talent?</a>
+</li>
+<li>
+<a href="/credentials">Develop 21st Century Credentials</a>
+</li>
+</ul>
+</nav>
+
+</div>
+<p class='ga-social-profile-links hide-over-720'>
+<a href='http://www.facebook.com/gnrlassembly' target='_blank' title='Visit General Assembly on Facebook'>
+<img alt="GA on Facebook" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-facebook-32x32-eb431410787437ca47c9b959971d6087.png" />
+</a>
+<a href='https://twitter.com/ga' target='_blank' title='Follow @GA on Twitter'>
+<img alt="GA on Twitter" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-twitter-32x32-c40b9151c32ebdba4d600f391ee67bf7.png" />
+</a>
+<a href='http://www.linkedin.com/company/2408664' target='_blank' title='Network with General Assembly on LinkedIn'>
+<img alt="GA on LinkedIn" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-linkedin-32x32-c9c486ec235119266481bf5a0f2676ec.png" />
+</a>
+<a href='http://instagram.com/generalassembly' target='_blank' title='See what’s happening on GA’s Instagram.'>
+<img alt="GA on Instagram" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-instagram-32x32-e1692f9d81b934763e3f044688fcec7d.png" />
+</a>
+<a href='https://plus.google.com/+GeneralAssembly' rel='publisher' target='_blank' title='Visit General Assembly on Google Plus'>
+<img alt="GA on Google Plus" class="square-social-icons" src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/square-social-icons/icon-googleplus-32x32-f0670aadb957fba81408db8dc724d670.png" />
+</a>
+
+</p>
+</div>
+</div>
+</footer>
+<div class='legal'>
+<div class='max-width has-padding'>
+<p>
+&copy; 2015 General Assembly. All rights reserved.
+<span class='terms-and-privacy'>
+<span>
+<a href="/regulatory-information">Regulatory Information</a>
+</span>
+<span>
+<a href="/terms_and_conditions">Terms</a>
+</span>
+<span>
+<a href="/privacy_policy">Privacy</a>
+</span>
+</span>
+<span class='assembled-link'>
+<a href="http://nytm.org/made-in-nyc" target="_blank">Assembled in NYC</a>
+</span>
+</p>
+</div>
+</div>
+
+
+<script src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/public-libs-fef5c8f1b2587719e2ea5c8b7e901bc9.js" type="text/javascript"></script>
+<script src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/public-ae18908bddc2b59953552d24eed6aeb5.js" type="text/javascript"></script>
+<script>
+  (function() {
+    var $background, $backgroundUrl, $ctaButton, $tagline, $title, setMetroData;
+  
+    $title = $("#london_title");
+  
+    $tagline = $("#london_tagline");
+  
+    $ctaButton = $("#london_cta");
+  
+    $background = $("#metro_welcome_section");
+  
+    $backgroundUrl = "https://s3.amazonaws.com/ga-core/core/core-static/metros/default-background.jpg";
+  
+    setMetroData = function(attrs) {
+      $title.html(attrs.title || "Working <br>Knowledge");
+      $tagline.html(attrs.tagline || "Learn technology, design, and business skills from industry professionals in our global community.");
+      return $ctaButton.html(attrs.ctaButtonText || "Browse Offerings");
+    };
+  
+    switch ("london") {
+      case "atlanta":
+        setMetroData({
+          ctaButtonText: "View Courses in Atlanta"
+        });
+        break;
+      case "austin":
+        setMetroData({
+          ctaButtonText: "View Courses in Austin"
+        });
+        break;
+      case "boston":
+        setMetroData({
+          ctaButtonText: "View Courses in Boston"
+        });
+        break;
+      case "chicago":
+        setMetroData({
+          ctaButtonText: "View Courses in Chicago"
+        });
+        break;
+      case "dallas":
+        setMetroData({
+          ctaButtonText: "View Courses in Dallas"
+        });
+        break;
+      case "hong-kong":
+        setMetroData({
+          ctaButtonText: "View Courses in Hong Kong"
+        });
+        break;
+      case "london":
+        setMetroData({
+          ctaButtonText: "View Courses in London"
+        });
+        break;
+      case "los-angeles":
+        setMetroData({
+          ctaButtonText: "View Courses in Los Angeles"
+        });
+        break;
+      case "melbourne":
+        setMetroData({
+          ctaButtonText: "View Courses in Melbourne"
+        });
+        break;
+      case "new-york-city":
+        setMetroData({
+          ctaButtonText: "View Courses in New York City"
+        });
+        break;
+      case "san-francisco":
+        setMetroData({
+          ctaButtonText: "View Courses in San Francisco"
+        });
+        break;
+      case "seattle":
+        setMetroData({
+          ctaButtonText: "View Courses in Seattle"
+        });
+        break;
+      case "singapore":
+        setMetroData({
+          ctaButtonText: "View Courses in Singapore"
+        });
+        break;
+      case "sydney":
+        setMetroData({
+          ctaButtonText: "View Courses in Sydney"
+        });
+        break;
+      case "washington-dc":
+        setMetroData({
+          ctaButtonText: "View Courses in Washington D.C."
+        });
+        break;
+      default:
+        setMetroData({
+          ctaButtonText: "View Courses in New York City"
+        });
+    }
+  
+    $ctaButton.attr('href', "https://generalassemb.ly/education?format=immersives&where=london");
+  
+    $background.css("background-image", "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(" + $backgroundUrl + ")");
+  
+  }).call(this);
+</script>
+<!--[if lt IE 10]><script>
+  (function() {
+    var $background, $ieBackgroundUrl, $viewportH, $viewportW;
+  
+    $ieBackgroundUrl = "https://s3.amazonaws.com/ga-core/core/core-static/metros/ie-default-background.jpg";
+  
+    $viewportH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+  
+    $viewportW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  
+    $background = $("#metro_welcome_section");
+  
+    $background.css({
+      background: "url(" + $ieBackgroundUrl + ")",
+      height: $viewportH,
+      width: $viewportW
+    });
+  
+  }).call(this);
+</script><![endif]-->
+<script>
+  (function() {
+    if (false && false) {
+      $(".js-subscription-form").slideDown();
+    } else {
+      Core.Lib.Analytics.emailIdentified(function(result) {
+        if (result) {
+          $("body").addClass('subscribed');
+          return $(".public-footer form.footer-email-subscription-form input.button").removeClass('primary').addClass('secondary');
+        } else {
+          return $(".js-subscription-form").slideDown();
+        }
+      });
+    }
+  
+    $(".js-subscription-form").each(function(i, e) {
+      var form;
+      form = new Core.Views.SubscriptionForm({
+        el: e,
+        location: $(e).data('location'),
+        page: $(e).data('page')
+      });
+      return form.render();
+    });
+  
+  }).call(this);
+</script>
+<!-- Google -->
+<script>
+  var google_conversion_id = 971191474;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+</script>
+<script src='//www.googleadservices.com/pagead/conversion.js' type='text/javascript'>
+<![CDATA[
+]]>
+</script>
+<noscript>
+<div style='display:inline;'>
+<img alt='' height='1' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/971191474/?value=0&amp;guid=ON&amp;script=0' style='border-style:none;' width='1'>
+</div>
+</noscript>
+<!-- Facebook -->
+<script>
+  (function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+      var fbds = document.createElement('script');
+      fbds.async = true;
+      fbds.src = '//connect.facebook.net/en_US/fbds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(fbds, s);
+      _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '1467656470148115']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript>
+<img alt='' height='1' src='https://www.facebook.com/tr?id=1467656470148115&amp;ev=NoScript' style='display:none' width='1'>
+</noscript>
+<!-- Twitter -->
+<script src='//platform.twitter.com/oct.js' type='text/javascript'></script>
+<script>
+  twttr.conversion.trackPid('l4nad');
+</script>
+<noscript>
+<img alt='' height='1' src='https://analytics.twitter.com/i/adsct?txn_id=l4nad&amp;p_id=Twitter' style='display:none;' width='1'>
+<img alt='' height='1' src='//t.co/i/adsct?txn_id=l4nad&amp;p_id=Twitter' style='display:none;' width='1'>
+</noscript>
+
+<script>
+  (function() {
+    $(function() {
+      return Core.Lib.Analytics.push({
+        event: "visited-homepage",
+        homepage: '',
+        metro: 'london'
+      });
+    });
+  
+    $(".browse-offerings.button").on("click", function(e) {
+      return Core.Lib.Analytics.push({
+        event: "clicked-homepage-primary-cta",
+        homepage: '',
+        metro: 'london'
+      });
+    });
+  
+  }).call(this);
+</script>
+<!-- X+1 -->
+<script type='text/javascript'>
+<!--
+var _dropTag=function() {
+var _qS='';
+var _rand=Math.random()+'';
+var _rs=document.location.protocol+'//';
+var xp1_qs =
+{
+'_t': 'dytypcpct',
+'_random': _rand*100000000000
+}
+for(var qsKey in xp1_qs){_qS += '&'+qsKey+'='+xp1_qs[qsKey];}
+document.write('<iframe src="'+_rs+'d.xp1.ru4.com/meta?_o=15678'+_qS+'" width="0" height="0" frameborder="0" scrolling="no" style= "display: none;"></iframe>');}
+_dropTag();
+<!-- /--> -->
+</script>
+<!-- MathTag -->
+<script language='JavaScript1.1' src='https://pixel.mathtag.com/event/js?mt_id=392901&amp;mt_adid=118338&amp;v1=&amp;v2=&amp;v3=&amp;s1=&amp;s2=&amp;s3='></script>
+<script language='JavaScript1.1' src='https://pixel.mathtag.com/event/js?mt_id=392902&amp;mt_adid=118338&amp;v1=&amp;v2=&amp;v3=&amp;s1=&amp;s2=&amp;s3='></script>
+<script>
+  (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"4002646"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+</script>
+
+<script>
+  (function() {
+    $(".footer-email-subscription-form").each(function(i, e) {
+      var form;
+      form = new Core.Views.FooterSubscriptionForm({
+        el: e,
+        location: $(e).data('location'),
+        page: 'footer'
+      });
+      return form.render();
+    });
+  
+  }).call(this);
+</script>
+
+<script>
+  (function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+      var fbds = document.createElement('script');
+      fbds.async = true;
+      fbds.src = '//connect.facebook.net/en_US/fbds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(fbds, s);
+      _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '698151020248998']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript>
+<img alt='' height='1' src='https://www.facebook.com/tr?id=698151020248998&amp;amp;ev=NoScript' style='display:none' width='1'>
+</noscript>
+<script>
+  var google_conversion_id = 973133998;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+</script>
+<script src='//www.googleadservices.com/pagead/conversion.js' type='text/javascript'></script>
+<noscript>
+<div style='display:inline;'>
+<img alt='' height='1' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/973133998/?value=0&amp;guid=ON&amp;script=0' style='border-style:none;' width='1'>
+</div>
+</noscript>
+
+<!-- AdRoll -->
+<script>
+  adroll_adv_id = "ZOMEOMPNGVENJJZCEDWHL6";
+  adroll_pix_id = "QT2IHR4YTJEHXPUSOSS52Q";
+</script>
+<script src='https://s.adroll.com/j/roundtrip.js' type='text/javascript'></script>
+
+<script>
+  (function(){ window._fbds = window._fbds || {}; _fbds.pixelId = 770356659660180; var fbds = document.createElement('script'); fbds.async = true; fbds.src = '//connect.facebook.net/en_US/fbds.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fbds, s); })(); window._fbq = window._fbq || []; window._fbq.push(["track", "PixelInitialized", {}])
+</script>
+<noscript>
+<img alt='' border='0' height='1' src='https://www.facebook.com/tr?id=770356659660180&amp;ev=NoScript' style='display: none' width='1'>
+</noscript>
+
+<!-- Misc analytics scripts -->
+<script>
+  (function() {
+    var current_user;
+  
+    window.CURRENT_IP = "109.231.193.164";
+  
+    current_user = "hugocama@googlemail.com";
+  
+    if (current_user === 'null') {
+      current_user = null;
+    } else {
+      false;
+    }
+  
+    $(document).ready(function() {
+      return Core.Lib.Analytics.kmIdentify(current_user);
+    });
+  
+  }).call(this);
+</script>
+
+</body>

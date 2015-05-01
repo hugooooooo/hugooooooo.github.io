@@ -1,0 +1,53 @@
+
+ 
+
+  body {
+    margin: 0px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+        outline-color: black;
+        background-color: white;
+        padding:0;
+      }
+        
+
+      .lead {
+        text-align: left;
+      }
+
+      .col-lg- {
+        clear:left;
+        padding-left: 18px;
+      }
+
+.top bar{
+  width: 100px;
+  color:red;
+}
+.text-muted{
+  margin: 0px;
+}
+
+.footer{
+  text-align: center;
+  background-color: rgb(200,200,200);
+  height: 100px;
+  padding: 50px;
+}
+
+.bar {
+  position: fixed;
+  background-color: gold;
+  width: 100%;
+  height: 50px;
+}
+.text-muted {
+  margin-top: 8px;
+  font-size: 30px;
+  color: rgb(100,100,100);
+}
